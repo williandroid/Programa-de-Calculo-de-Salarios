@@ -1,9 +1,5 @@
 //Programa de calculo de Salarios e Imposto de Renda.
-//Esse programa agora contém um controle de versão
-//
-//
-
-
+//Esse programa agora contem um controle de versao
 #include <stdio.h>
 float mat[2][12];
 int i;
