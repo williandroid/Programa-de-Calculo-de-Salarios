@@ -23,21 +23,6 @@ int zerarValores()
     }
 }
 //------------------------------------------------------------------------------
-//Exibe a MATRIZ
-int exibir()
-{
-    for(i=0;i<2;i++)
-    {
-        for(j=0;j<12;j++)
-        {
-            printf("%.0f ",mat[i][j]);
-        }
-        printf("\n");
-    }
-    system("pause");
-    return 0;
-}
-//------------------------------------------------------------------------------
 //Procedimento de fazer as condições.
 int condicoes()
 {
@@ -110,6 +95,21 @@ int calculaTotalDesconto()
 int calculaSalarioLiquido()
 {
     salarioLiquido = salarioBruto - totalDeDesconto;
+}
+//------------------------------------------------------------------------------
+//Exibe a MATRIZ
+int exibir()
+{
+    for(i=0;i<2;i++)
+    {
+        for(j=0;j<12;j++)
+        {
+            printf("%.0f ",mat[i][j]);
+        }
+        printf("\n");
+    }
+    system("pause");
+    return 0;
 }
 //------------------------------------------------------------------------------
 //Principal chamada de procedimentos
